@@ -18,16 +18,16 @@
   "Library.Context.Remove": "Удалить из библиотеки",
 
   "Library.Empty.Title": "Ваша библиотека пуста",
-  "Library.Empty.Hint": "Добавьте папку с играми, чтобы начать.",
+  "Library.Empty.Hint": "Добавьте папку с играми, чтобы начать играть.",
   "Library.Empty.SearchTitle": "По вашему запросу ничего не найдено",
   "Library.Empty.SearchHint": "В библиотеке нет игр, соответствующих запросу «{0}».",
   "Library.Empty.AddFolder": "＋ Добавить папку с играми",
 
-  "Library.Loading": "Загрузка библиотеки…",
+  "Library.Loading": "Загрузка игр…",
 
   "Options.General": "Основные",
   "Options.Section.Emulation": "ЭМУЛЯЦИЯ",
-  "Options.Section.Logging": "ЛОГГИРОВАНИЕ",
+  "Options.Section.Logging": "ЛОГГИ",
   "Options.Section.Launcher": "ЛАУНЧЕР",
 
   "Options.CpuEngine.Label": "Движок ЦП",
@@ -37,7 +37,7 @@
   "Options.Strict.Label": "Строгое разрешение динамических библиотек",
   "Options.Strict.Desc": "Не запускать игру, если не удается найти или связать импортируемую функцию/переменную.",
 
-  "Options.LogLevel.Label": "Уровень логгирования",
+  "Options.LogLevel.Label": "Уровень логгов",
   "Options.LogLevel.Desc": "Подробность вывода в консоль эмулятора.",
   "Options.LogLevel.Trace": "Trace",
   "Options.LogLevel.Debug": "Debug",
@@ -49,18 +49,18 @@
   "Options.TraceImports.Label": "Лимит трассировки импортов",
   "Options.TraceImports.Desc": "Трассировать первые N импортов в каждом модуле (0 - выключено).",
 
-  "Options.LogToFile.Label": "Запись лога в файл",
+  "Options.LogToFile.Label": "Запись из лога в файл",
   "Options.LogToFile.Desc": "Дублировать вывод эмулятора в файл лога.",
 
   "Options.LogFilePath.Label": "Путь к файлу лога",
   "Options.LogFilePath.Default": "Пользовательский путь не задан: логи сохраняются в user/logs рядом с эмулятором.",
   "Options.LogFilePath.Select": "Выбрать…",
 
-  "Options.OverrideLogFile.Label": "Переопределить файл лога",
+  "Options.OverrideLogFile.Label": "Поменять файл лога",
   "Options.OverrideLogFile.Desc": "Использовать указанный путь к файлу без добавления ID игры и метки времени.",
 
-  "Options.TitleMusic.Label": "Музыка игры",
-  "Options.TitleMusic.Desc": "Зацикленно воспроизводить музыку предпросмотра выбранной игры в библиотеке.",
+  "Options.TitleMusic.Label": "Звук игры",
+  "Options.TitleMusic.Desc": "Воспроизводить музыку предпросмотра выбранной игры в библиотеке.",
 
   "Options.Discord.Label": "Статус Discord",
   "Options.Discord.Desc": "Показывать запущенную игру в профиле Discord.",
@@ -88,7 +88,7 @@
   "Launch.Running": "Запущено - {0}",
   "Launch.Stopping": "Остановка…",
   "Launch.Exited": "Завершено с кодом {0} ({1})",
-  "Launch.ExeNotFound": "Исполняемый файл SharpEmu не найден. Скомпилируйте сначала проект SharpEmu.CLI (dotnet build).",
+  "Launch.ExeNotFound": "Исполняемый файл SharpEmu не найден. Скомпилируйте сначала эмулятор SharpEmu.CLI (dotnet build).",
   "Launch.LogFile": "Лог: {0}",
   "Launch.Command": "$ SharpEmu {0}",
   "Launch.StartFailed": "Не удалось запустить эмулятор: {0}",
@@ -105,7 +105,7 @@
   "Status.EmulatorPath": "Эмулятор: {0}",
   "Status.EmulatorNotFound": "Эмулятор: исполняемый файл SharpEmu не был найден - скомпилируйте сначала SharpEmu.CLI.",
   "Status.ScanningLibrary": "Сканирование библиотеки…",
-  "Status.AddFolderPrompt": "Добавьте папку с играми, чтобы заполнить библиотеку.",
+  "Status.AddFolderPrompt": "Добавьте папку с играми, чтобы добавить в библиотеку.",
   "Status.LibraryScanned": "Сканирование библиотеки завершено: игр: {0}, папок: {1}.",
   "Status.CouldNotOpenFolder": "Не удалось открыть папку: {0}",
   "Status.CopiedToClipboard": "{0}: скопировано в буфер обмена.",
